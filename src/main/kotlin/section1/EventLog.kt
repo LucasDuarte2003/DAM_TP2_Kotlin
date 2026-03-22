@@ -1,3 +1,4 @@
+package section1
 // Representa os diferentes tipos de eventos do sistema
 sealed class Event {
     data class Login(val username: String, val timestamp: Long) : Event()
